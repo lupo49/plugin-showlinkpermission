@@ -1,0 +1,7 @@
+base   showlinkpermission
+author Matthias Schulte
+email  dokuwiki@lupo49.de
+date   2012-08-19
+name   showlinkpermission plugin
+desc   Changes the color of internal link if the user has no read permissions
+url    http://dokuwiki.org/plugin:showlinkpermission
