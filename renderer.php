@@ -26,7 +26,9 @@ class renderer_plugin_showlinkpermission extends Doku_Renderer_xhtml {
         global $conf;
         global $ID;
         global $INFO;
-
+        // Disabling the cache to have the XHTML always up-to-date
+        $this->info['cache'] = false;
+        
         $params = '';
         $parts = explode('?', $id, 2);
         if (count($parts) === 2) {
